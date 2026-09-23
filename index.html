@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101918">
+  <meta name="description" content="Ikuti perjalanan seorang jemaah lelaki dari Kuala Lumpur hingga selesai umrah. Lapan bab interaktif, amalan sunnah dan dalil ringkas.">
+  <title>Jejak Umrah — Dari Kuala Lumpur ke Baitullah</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23101918'/%3E%3Cpath d='M8 23V10l8-4 8 4v13l-8 4z' fill='none' stroke='%23ddc393' stroke-width='1.5'/%3E%3Cpath d='M8 13l8 4 8-4M16 17v10' fill='none' stroke='%23ddc393'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#story">Terus ke perjalanan</a>
+  <div class="scene-background" aria-hidden="true"><div class="backdrop is-visible" id="backdrop-a"></div><div class="backdrop" id="backdrop-b"></div><div class="shade"></div><div class="grain"></div></div>
+  <div class="shell">
+    <header class="site-header">
+      <a href="#bab-1" class="brand" aria-label="Jejak Umrah, bab pertama"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M7 26V11l11-5 11 5v15l-11 5zM7 14l11 5 11-5M18 19v12"/></svg><span>jejak<span class="brand-light">umrah</span><small>SEBUAH PERJALANAN IBADAH</small></span></a>
+      <div class="route-top"><span>KUALA LUMPUR</span><span class="route-line"></span><span>MAKKAH</span></div>
+      <nav class="header-actions" aria-label="Panduan"><button id="open-guide" class="text-button">Panduan sunnah <span aria-hidden="true">↗</span></button><button id="open-sources" class="text-button">Rujukan</button><button id="motion" class="icon-button" aria-label="Jeda animasi" aria-pressed="false">Ⅱ</button></nav>
+    </header>
+    <main id="story" tabindex="-1">
+      <div class="chapter-label"><span class="tiny-line"></span><span id="chapter-label">01 / 08 · KUALA LUMPUR</span></div>
+      <div class="story-layout">
+        <section class="story-copy" id="story-copy" aria-live="polite" aria-atomic="true">
+          <p class="eyebrow" id="eyebrow">BERMULA DENGAN NIAT YANG IKHLAS</p>
+          <h1 id="scene-title">Dari Kuala Lumpur,<br><em>menuju Baitullah.</em></h1>
+          <p class="story-description" id="scene-description">Langkah seorang jemaah lelaki. Dari persiapan di tanah air, menuju ibadah umrah yang berpandukan sunnah.</p>
+          <div class="story-actions"><button class="primary-button" id="next">Mulakan perjalanan <span aria-hidden="true">↗</span></button><button class="secondary-button" id="details">Amalan & dalil <span aria-hidden="true">+</span></button></div>
+          <div class="scene-note"><span class="note-mark" aria-hidden="true">◇</span><p id="scene-note">Memakai kain ihram belum bermakna sudah berniat ihram.</p></div>
+        </section>
+        <aside class="scene-feature" id="scene-feature" aria-label="Persiapan perjalanan"><span class="feature-kicker">SEBELUM BERANGKAT</span><p class="feature-title">Siapkan diri.<br>Tenangkan hati.</p><div class="feature-rule"></div><p class="feature-text">Mandi, bersihkan diri dan sediakan pakaian ihram sebelum penerbangan.</p><button class="feature-link" id="feature-guide">Lihat persiapan <span aria-hidden="true">↗</span></button></aside>
+      </div>
+      <div class="scene-bottom"><span id="location">KUL · MALAYSIA</span><span class="scene-hint">Gunakan <kbd>←</kbd> <kbd>→</kbd> untuk meneroka</span><span class="image-note">Ilustrasi perjalanan</span></div>
+    </main>
+    <footer class="journey-footer"><div class="footer-meta"><span>PERJALANAN ANDA</span><span><b id="step-count">01</b> <span class="muted">/ 08 BAB</span></span></div><nav class="timeline" aria-label="Bab perjalanan" id="timeline"></nav><div class="footer-bottom"><span>Berpandukan sunnah. Selangkah demi selangkah.</span><button id="previous" class="back-button" disabled><span aria-hidden="true">←</span> Bab sebelumnya</button></div></footer>
+  </div>
+  <dialog id="guide-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow" id="dialog-eyebrow">PANDUAN SUNNAH</span><button class="icon-button" id="close-dialog" aria-label="Tutup panduan">×</button></div><div id="dialog-content"><h2 id="dialog-title">Persiapan di Kuala Lumpur</h2></div></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
